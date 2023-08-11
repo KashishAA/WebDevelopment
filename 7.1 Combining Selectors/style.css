@@ -1,0 +1,50 @@
+/* Write your code here: */
+
+/* apply on both selectors */
+h1,
+h2 {
+    color: blueviolet;
+}
+
+/*apply to direct child of left side */
+div>p {
+    color: firebrick;
+}
+
+/* group selectors 
+.box p {
+    color: firebrick;
+}
+*/
+
+/*Apply to a descendent of left side
+selector selector{
+    color:blue;
+*/
+.box li {
+    color: blue;
+}
+
+/* Chaining: apply where all selectors are true
+
+seletorsselectors{
+    color: blue;
+}
+alwyas start with the element and leave no space
+h1#id.class1.class2*/
+
+li.done {
+    color: green;
+}
+
+/*
+combining combiners
+selector selectorselector{
+    font-size:0.5rem
+}
+
+*/
+
+ul p.done {
+    font-size: 0.5rem;
+}
